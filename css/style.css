@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: #555;
+}
+
+.container{
+    position: relative;
+}
+
+.ekran{
+    position: absolute;
+    top: 68px;
+    left: 67px;
+    height: 85px;
+    width: 165px;
+    background-color: rgb(5,182,14);
+    border: none;
+    outline: none;
+    font-size: 55px;
+    text-align: center;
+    caret-color: rgba(5,182,14);
+}
+
+.button{
+    position: absolute;
+    top: 207px;
+    left: 92px;
+    width: 117px;
+    height: 117px;
+    border-radius: 100%;
+    background-color: rgb(253, 195, 108);
+    border: none;
+}
+
+.button:active{
+    width: 117px;
+    height: 117px;
+}
+
+.delete{
+    position: absolute;
+    top: 180px;
+    left: 205px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgb(255, 30, 0);
+    border: none;
+}
+
+.delete:active{
+    width: 35px;
+    height: 35px;
+}
